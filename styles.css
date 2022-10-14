@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.title__hover:hover::before {
+  content: "< ";
+  color: rgb(14 116 144 / 1);
+  font-weight: bolder;
+}
+
+.title__hover:hover::after {
+  content: " />";
+  color: rgb(14 116 144 / 1);
+  font-weight: bolder;
+}

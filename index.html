@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a413ea44fb.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon">
+  <title>Portfolio</title>
+</head>
+
+<body class="w-screen min-h-screen box-border overflow-x-hidden text-white">
+
+  <header class="fixed z-10  bg-cyan-700 w-full h-20 border-b-2">
+    <ul class="flex lg:float-right items-center justify-center  gap-10 text-2xl font-bold h-full pr-10">
+      <li>
+        <a class="hover:text-zinc-800 navbar__option" href="#welcome-section">About</a>
+      </li>
+      <li>
+        <a class="hover:text-zinc-800 navbar__option" href="#projects">Work</a>
+      </li>
+      <li>
+        <a class="hover:text-zinc-800 navbar__option" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </header>
+
+  <main class="relative">
+    <section class="h-screen w-screen bg-zinc-800 flex justify-center items-center" id="welcome-section">
+      <h2 class="text-5xl text-center">Hey I am Jhonatan <br> <i class="text-cyan-400">a web developer</i></h2>
+    </section>
+
+    <section class="min-h-screen w-screen bg-cyan-700" id="projects">
+      <h2 class="underline text-center text-5xl pt-20">
+        These are some of my projects
+      </h2>
+      <div class="cards__container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  m-auto w-4/5 pt-16 gap-6">
+
+        <div class="card rounded-lg lg:w-3/4 text-center">
+          <div class="card__img w-full h-80">
+            <img src="./assets//img/app.png" alt="" class="w-full h-full object-contain">
+          </div>
+          <a href="https://github.com/jhonatan0912/chat-app-mobile" target="_blank"
+            class="card__title bg-zinc-700 h-10 flex items-center justify-center title__hover cursor-pointer text-xl rounded-lg">
+            &nbsp; App phone (CSS)&nbsp;
+          </a>
+        </div>
+
+        <div class="card rounded-lg lg:w-3/4 text-center">
+          <div class="card__img w-full h-80">
+            <img src="./assets//img/chart.png" alt="" class="w-full h-full object-contain">
+          </div>
+          <a href="https://github.com/jhonatan0912/chart" target="_blank"
+            class="card__title bg-zinc-700 h-10 flex items-center justify-center title__hover cursor-pointer text-xl rounded-lg">
+            &nbsp; Balance chart (Fetch)&nbsp;
+          </a>
+        </div>
+
+        <div class="card rounded-lg lg:w-3/4 text-center">
+          <div class="card__img w-full h-80">
+            <img src="./assets//img/landingpage.png" alt="" class="w-full h-full object-contain">
+          </div>
+          <a href="https://github.com/jhonatan0912/WEB-DEVELOPMENT-COURSE" target="_blank"
+            class="card__title bg-zinc-700 h-10 flex items-center justify-center title__hover cursor-pointer text-xl rounded-lg">
+            &nbsp; Template inspiration(Tailwind)&nbsp;
+          </a>
+        </div>
+
+        <div class="card rounded-lg lg:w-3/4 text-center">
+          <div class="card__img w-full h-80">
+            <img src="./assets//img/rickyandmorty.png" alt="" class="w-full h-full object-contain">
+          </div>
+          <a href="https://github.com/jhonatan0912/LEARN-APIREST" target="_blank"
+            class="card__title bg-zinc-700 h-10 flex items-center justify-center title__hover cursor-pointer text-xl rounded-lg">
+            &nbsp; Ricky and Morty (API)&nbsp;
+          </a>
+        </div>
+
+        <div class="card rounded-lg lg:w-3/4 text-center">
+          <div class="card__img w-full h-80">
+            <img src="./assets//img/shoes.png" alt="" class="w-full h-full object-contain">
+          </div>
+          <a href="https://github.com/jhonatan0912/tiendamike" target="_blank"
+            class="card__title bg-zinc-700 h-10 flex items-center justify-center title__hover cursor-pointer text-xl rounded-lg">
+            &nbsp; CRUD (PHP/MYSQL)&nbsp;
+          </a>
+        </div>
+
+        <div class="card rounded-lg lg:w-3/4 text-center">
+          <div class="card__img w-full h-80">
+            <img src="./assets//img/testimonials.png" alt="" class="w-full h-full object-contain">
+          </div>
+          <a href="https://github.com/jhonatan0912/grid-frontend-mentor" target="_blank"
+            class="card__title bg-zinc-700 h-10 flex items-center justify-center title__hover cursor-pointer text-xl rounded-lg">
+            &nbsp; Testimonials GRID&nbsp;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="h-screen w-screen bg-zinc-800 flex justify-center items-center flex-col gap-7" id="contact">
+      <h2 class="text-5xl text-center">Let's work together...</h2>
+      <div class="socials flex flex-col lg:flex-row  gap-5 text-2xl">
+        <a href="https://www.facebook.com/jhonatan.YA/" target="_blank"
+          class="social flex items-center gap-2 hover:ml-4 lg:hover:-mb-3 hover:transition-all">
+          <i class="fa fa-facebook"></i>
+          <p>Facebook</p>
+        </a>
+        <a href="https://github.com/jhonatan0912" target="_blank"
+          class="social flex items-center gap-2 hover:ml-4 lg:hover:-mb-3 hover:transition-all">
+          <i class="fa fa-github"></i>
+          <p>Github</p>
+        </a>
+        <a href="https://twitter.com/jhoonatan_0912" target="_blank"
+          class="social flex items-center gap-2 hover:ml-4 lg:hover:-mb-3 hover:transition-all">
+          <i class="fa fa-twitter"></i>
+          <p>Twitter</p>
+        </a>
+        <a href="mailto:jhoontan_0912@hotmail.com" target="_blank"
+          class="social flex items-center gap-2 hover:ml-4 lg:hover:-mb-3 hover:transition-all">
+          <i class="fa fa-at"></i>
+          <p>Send a mail</p>
+        </a>
+        <a href="tel: +51927686869"
+          class="social flex items-center gap-2 hover:ml-4 lg:hover:-mb-3 hover:transition-all" target="_blank">
+          <i class="fa fa-mobile"></i>
+          <p>Phone</p>
+        </a>
+        <a href="https://wa.me/927686869"
+          class="social flex items-center gap-2 hover:ml-4 lg:hover:-mb-3 hover:transition-all" target="_blank">
+          <i class="fa fa-whatsapp"></i>
+          <p>Whatsapp</p>
+        </a>
+      </div>
+
+    </section>
+    <footer
+      class="absolute bottom-0 left-0 w-full justify-center flex gap-2 items-center h-20 text-xl border-t-cyan-800 border-t-4">
+      <i class="fa fa-copyright"></i>
+      <p>Created for <a href="mailto: jhoonatan_0912@hotmail.com" target="_blank"> @jhoonatan_0912@hotmail.com</a></p>
+    </footer>
+  </main>
+
+</body>
+
+</html>
